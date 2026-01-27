@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="ball">
+    <link name="link">
+      <inertial>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>0.00016</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00016</iyy>
+          <iyz>0</iyz>
+          <izz>0.00016</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <sphere>
+            <radius>0.1</radius>
+          </sphere>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.1</mu>
+              <mu2>0.1</mu2>
+            </ode>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0.8</restitution_coefficient>
+            <threshold>0.01</threshold>
+          </bounce>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <sphere>
+            <radius>0.1</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
