@@ -48,7 +48,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
+              <name>Gazebo/Grass</name>
             </script>
           </material>
         </visual>
@@ -135,6 +135,11 @@
       <link name="link">
         <visual name="visual">
           <geometry><cylinder><radius>0.1</radius><length>0.5</length></cylinder></geometry>
+          <material>
+            <ambient>1.0 1.0 0.0 1.0</ambient>
+            <diffuse>1.0 1.0 0.0 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+          </material>
         </visual>
         <collision name="collision">
           <geometry><cylinder><radius>0.1</radius><length>0.5</length></cylinder></geometry>
@@ -148,6 +153,11 @@
       <link name="link">
         <visual name="visual">
           <geometry><cylinder><radius>0.1</radius><length>0.5</length></cylinder></geometry>
+          <material>
+            <ambient>1.0 1.0 0.0 1.0</ambient>
+            <diffuse>1.0 1.0 0.0 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+          </material>
         </visual>
         <collision name="collision">
           <geometry><cylinder><radius>0.1</radius><length>0.5</length></cylinder></geometry>
@@ -161,6 +171,11 @@
       <link name="link">
         <visual name="visual">
           <geometry><cylinder><radius>0.1</radius><length>0.5</length></cylinder></geometry>
+          <material>
+            <ambient>1.0 1.0 0.0 1.0</ambient>
+            <diffuse>1.0 1.0 0.0 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+          </material>
         </visual>
         <collision name="collision">
           <geometry><cylinder><radius>0.1</radius><length>0.5</length></cylinder></geometry>
@@ -174,6 +189,11 @@
       <link name="link">
         <visual name="visual">
           <geometry><cylinder><radius>0.1</radius><length>0.5</length></cylinder></geometry>
+          <material>
+            <ambient>1.0 1.0 0.0 1.0</ambient>
+            <diffuse>1.0 1.0 0.0 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+          </material>
         </visual>
         <collision name="collision">
           <geometry><cylinder><radius>0.1</radius><length>0.5</length></cylinder></geometry>
